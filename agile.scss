@@ -1,0 +1,33 @@
+@import "colors";
+
+.ghx-swimlane-header:after,
+.ghx-heading:after,
+.ghx-issue .ghx-end,
+.ghx-swimlane-header:hover,
+.ghx-heading:hover,
+.ghx-issue .ghx-end:hover,
+#ghx-pool > div.ghx-swimlane > ul > li > div:hover .ghx-end,
+.ghx-issue,
+.ghx-issue.ghx-selected .ghx-end {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.ghx-column.ui-sortable {
+    background-color: $offDark !important;
+}
+
+#ghx-pool {
+    background: inherit;
+}
+
+#ghx-column-headers .ghx-column,
+#ghx-column-headers .ghx-column * {
+    background-color: $offDark !important;
+    border: none;
+    color: $primary;
+}
+
+#ghx-header {
+    margin: 0;
+}

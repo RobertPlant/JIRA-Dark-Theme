@@ -1,0 +1,29 @@
+@import "colors";
+
+.wiki-edit-toolbar {
+    background: $brightSecondary;
+}
+
+#issue-tabs > li {
+    background: $highlight !important;
+    color: $primary;
+    & > a {
+        background: $highlight !important;
+        color: $primary;
+    }
+    &.active > strong {
+        background: $brighterHighlight !important;
+        color: $primary;
+    }
+}
+
+.ops li,
+.ops li * {
+    background: $highlight !important;
+    color: $primary;
+}
+
+.aui-list,
+.aui-list * {
+    color: $primary !important;
+}

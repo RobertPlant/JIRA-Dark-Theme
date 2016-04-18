@@ -1,0 +1,21 @@
+@import "icons";
+@import "colors";
+@import "input";
+@import "syntax";
+@import "agile";
+@import "backlog";
+@import "ticket";
+@import "header";
+@import "sidebar";
+@import "footer";
+
+* {
+    background: $brightSecondary;
+    color: $primary;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.aui-dropdown2.aui-style-default a {
+    color: $primary;
+}

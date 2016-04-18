@@ -1,0 +1,16 @@
+@import "colors";
+
+#syntaxplugin span {
+    &[style*="black"] {
+        color: $white !important;
+    }
+
+    &[style*="blue"] {
+        color: $brightestHighlight !important;
+    }
+}
+
+.sla-tag.sla-tag-breached,
+code {
+    color: $black;
+}

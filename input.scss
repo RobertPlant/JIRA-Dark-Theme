@@ -1,0 +1,29 @@
+@import "colors";
+
+button,
+button *,
+input,
+input *,
+textarea,
+textarea *,
+form.aui option,
+.toolbar-trigger.js-default-dropdown,
+.editable-field:hover,
+.editable-field:hover *,
+.toolbar-group.pluggable-ops,
+.toolbar-group.pluggable-ops *,
+.aui-button {
+    background: $highlight !important;
+    color: $primary !important;
+}
+
+.jira-dialog-heading,
+.jira-dialog-heading *,
+.buttons-container
+.buttons-container *
+.jira-dialog-content,
+.jira-dialog .jira-dialog-content,
+.jira-dialog .buttons-container {
+    background: $secondary !important;
+    color: $primary !important;
+}

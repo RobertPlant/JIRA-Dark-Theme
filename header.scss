@@ -1,0 +1,19 @@
+@import "colors";
+
+html,
+body header nav.aui-header,
+body header nav.aui-header * {
+    background: $black;
+}
+
+.ghx-header *,
+.issue-header-content,
+.aui-page-header *,
+.command-bar,
+.toggle-title,
+.saved-search-selector,
+.saved-search-selector *,
+.navigator-search {
+    background: $brightSecondary !important;
+    color: $primary !important;
+}

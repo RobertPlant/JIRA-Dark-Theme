@@ -1,341 +1,55 @@
-body,
-#footer-logo {
-    background: #001E2F;
-    color: white;
-}
+.agile-icon-work {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmFjdGl2ZS1zcHJpbnRzPC90aXRsZT4NCiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiA8Zz4NCiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPg0KICA8ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9Im5vbmUiIGlkPSJQYWdlLTEiPg0KICAgPGcgZmlsbD0iIzMzMzMzMyIgaWQ9ImFjdGl2ZS1zcHJpbnRzIj4NCiAgICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0ic3ZnXzEiIGQ9Im0xLDFsMCwxN2wxNywwbDAsLTE3bC0xNywwbDAsMHptMSwxNmwwLC0xNWw3LDBsMCwxNWwtNywwbDAsMHptMTUsMGwtNywwbDAsLTE1bDcsMGwwLDE1bDAsMHoiLz4NCiAgIDwvZz4NCiAgPC9nPg0KIDwvZz4NCjwvc3ZnPg=="); }
 
-#content > header > div > div.aui-page-header-main > div.aui-group > div:nth-child(1) > h1 {
-    background: #001E2F !important;
-    color: white;
-}
+.agile-icon-report {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPnJlcG9ydHM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTUsMmwwLDE1bC0yLjk1MSwwbC0wLjA0NiwtMTVsMi45OTcsMGwwLDB6bTEsLTFsLTUsMGwwLjA1MiwxN2w0Ljk0OCwwbDAsLTE3bDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTEsNi43OTU1MDFsMCwxMC4wMDAwMDFsLTIuOTUyLDBsLTAuMDQ0MDAxLC0xMC4wMDAwMDFsMi45OTYsMGwwLDB6bTEsLTFsLTUsMGwwLjA1MiwxMi4wMDAwMDFsNC45NDgsMGwwLC0xMi4wMDAwMDFsMCwweiIvPg0KICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0iU2hhcGUiIGQ9Im0xNywxMmwwLDVsLTIuOTU1LDBsLTAuMDM3LC01bDIuOTkyLDBsMCwwem0xLC0xbC01LDBsMC4wNTIsN2w0Ljk0OCwwbDAsLTdsMCwweiIvPg0KIDwvZz4NCjwvc3ZnPg=="); }
 
-h1,
-h1 > span,
+.agile-icon-plan {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmJhY2tsb2c8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJzdmdfMSIgZD0ibTIwLDVsLTQsMGwwLC00bC0xNSwwbDAsNWw0LDBsMCwzbC00LDBsMCw5bDE1LDBsMCwtOGw0LDBsMCwtNWwwLDB6bS0xOCwwbDAsLTNsMTMsMGwwLDNsLTEzLDBsMCwwem0xMywxMmwtMTMsMGwwLC0zbDEzLDBsMCwzbDAsMHptMCwtNGwtMTMsMGwwLC0zbDEzLDBsMCwzbDAsMHptNCwtNGwtMTMsMGwwLC0zbDEwLDBsMywwbDAsM2wwLDB6Ii8+DQogPC9nPg0KPC9zdmc+"); }
+
+.icon-sidebar-release {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPnJlbGVhc2VzPC90aXRsZT4NCiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiA8Zz4NCiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPg0KICA8ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9Im5vbmUiIGlkPSJQYWdlLTEiPg0KICAgPGcgaWQ9InJlbGVhc2VzIj4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSI4IiB5PSIxNi4yOTg4IiB4PSIyLjA5OTYiIGZpbGw9IiNiZmJmYmYiIGlkPSJSZWN0YW5nbGUtMzUiLz4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSI1IiB5PSIxNi4yOTg4IiB4PSIxMi4wOTk2IiBmaWxsPSIjYmZiZmJmIiBpZD0iUmVjdGFuZ2xlLTM2Ii8+DQogICAgPHJlY3QgaGVpZ2h0PSIxIiB3aWR0aD0iMSIgeT0iNy4yOTg4IiB4PSI1LjA5OTYiIGZpbGw9IiNiZmJmYmYiIGlkPSJSZWN0YW5nbGUtMzgiLz4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSIxIiB5PSI3LjI5ODgiIHg9IjcuMDk5NiIgZmlsbD0iI2JmYmZiZiIgaWQ9IlJlY3RhbmdsZS0zOSIvPg0KICAgIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTE3LjY5OTYsMTIuMzk4ODFsMS40LC00LjFsLTYsMGwtMSwxbC0yLDBsMCwtNGwtNCwwbDAsLTNsLTEsMGwwLDNsLTIsMGwwLDRsLTEsMGwwLDRsLTEsMGwwLDFsMTgsMGwwLC0xbC0xLjksMGMwLjIsLTAuMyAwLjQsLTAuNiAwLjUsLTAuOWwwLDB6bS0xMy42LC02LjFsNSwwbDAsM2wtNSwwbDAsLTNsMCwwem0xMSw3bC0xMiwwbDAsLTNsOS40LDBsMSwtMWw0LjIsMGwtMC45LDIuOGMtMC4yLDAuNiAtMSwxLjIgLTEuNywxLjJsMCwweiIvPg0KICAgPC9nPg0KICA8L2c+DQogPC9nPg0KPC9zdmc+"); }
+
+.icon-sidebar-components {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmNvbXBvbmVudHM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTEwLjQ1LDE4LjdsLTIuOSwtMi45Yy0wLjMsLTAuMyAtMC40LC0wLjMgLTAuNCwtMC4zYy0wLjEsMC4zIC0wLjIsMC42IC0wLjUsMC44Yy0wLjgsMC44IC0yLjEsMC44IC0yLjksMGMtMC44LC0wLjggLTAuOCwtMi4xIDAsLTIuOWMwLjIsLTAuMiAwLjUsLTAuNCAwLjgsLTAuNWMwLDAgLTAuMSwtMC4yIC0wLjMsLTAuNGwtMi45LC0yLjlsMi41LC0yLjVjMC40LC0wLjQgMC44LC0wLjYgMS4xLC0wLjZjMC41LDAgMC44LDAuNCAwLjksMC43bDAuMywwLjNjMC40LDAuNCAxLjEsMC40IDEuNSwwYzAuNCwtMC40IDAuNCwtMS4xIDAsLTEuNWMtMC4xLC0wLjEgLTAuMywtMC4yIC0wLjQsLTAuMmMtMC4yLC0wLjEgLTAuNiwtMC4zIC0wLjcsLTAuN2MtMC4xLC0wLjQgMC4xLC0wLjkgMC42LC0xLjRsMi40LC0yLjRsMi45LDIuOWMwLjMsMC4zIDAuNCwwLjMgMC40LDAuM2MwLjEsLTAuMyAwLjIsLTAuNiAwLjUsLTAuOGMwLjgsLTAuOCAyLjEsLTAuOCAyLjksMGMwLjQsMC40IDAuNiwwLjkgMC42LDEuNWMwLDAuNiAtMC4yLDEuMSAtMC42LDEuNWMtMC4yLDAuMiAtMC41LDAuNCAtMC44LDAuNWMwLDAgMC4xLDAuMiAwLjMsMC40bDIuOSwyLjlsLTIuNCwyLjRjLTAuNCwwLjQgLTAuOCwwLjYgLTEuMSwwLjZsMCwwYy0wLjUsMCAtMC44LC0wLjQgLTAuOSwtMC43YzAsLTAuMSAtMC4xLC0wLjMgLTAuMiwtMC40Yy0wLjQsLTAuNCAtMS4xLC0wLjQgLTEuNSwwYy0wLjIsMC4yIC0wLjMsMC41IC0wLjMsMC44YzAsMC4zIDAuMSwwLjYgMC4zLDAuOGMwLjEsMC4xIDAuMiwwLjIgMC40LDAuM2MwLjIsMC4xIDAuNiwwLjMgMC42LDAuN2MwLjEsMC40IC0wLjEsMC45IC0wLjYsMS4zbC0yLjUsMi40bDAsMHptLTMuMywtNC4yYzAuNCwwIDAuNywwLjIgMS4xLDAuNmwyLjIsMi4ybDEuOCwtMS44YzAuMywtMC4zIDAuMywtMC40IDAuMywtMC40Yy0wLjMsLTAuMSAtMC42LC0wLjIgLTAuOCwtMC41Yy0wLjQsLTAuNCAtMC42LC0wLjkgLTAuNiwtMS41YzAsLTAuNiAwLjIsLTEuMSAwLjYsLTEuNWMwLjgsLTAuOCAyLjEsLTAuOCAyLjksMGMwLjIsMC4yIDAuNCwwLjUgMC41LDAuOGMwLDAgMC4yLC0wLjEgMC40LC0wLjNsMS43LC0xLjdsLTIuMiwtMi4yYy0wLjUsLTAuNSAtMC43LC0wLjkgLTAuNiwtMS4zYzAuMSwtMC40IDAuNCwtMC42IDAuNywtMC43YzAuMSwwIDAuMywtMC4xIDAuNCwtMC4yYzAuNCwtMC40IDAuNCwtMS4xIDAsLTEuNWMtMC40LC0wLjQgLTEuMSwtMC40IC0xLjUsMGMtMC4xLDAuMSAtMC4yLDAuMiAtMC4zLDAuNGMtMC4xLDAuMiAtMC40LDAuNyAtMC45LDAuN2MtMC40LDAgLTAuNywtMC4yIC0xLjEsLTAuNmwtMi4xLC0yLjNsLTEuOCwxLjdjLTAuMywwLjMgLTAuMywwLjUgLTAuMywwLjVjMC4zLDAuMSAwLjYsMC4yIDAuOCwwLjVjMC44LDAuOCAwLjgsMi4xIDAsMi45Yy0wLjgsMC43IC0yLjEsMC43IC0yLjksMGMtMC4yLC0wLjMgLTAuNCwtMC41IC0wLjUsLTAuOGMwLDAgLTAuMiwwLjEgLTAuNCwwLjNsLTEuOCwxLjhsMi4yLDIuMmMwLjUsMC41IDAuNywwLjkgMC42LDEuM2MtMC4xLDAuNCAtMC40LDAuNiAtMC43LDAuN2MtMC4xLDAgLTAuMywwLjEgLTAuNCwwLjJjLTAuNCwwLjQgLTAuNCwxLjEgMCwxLjVjMC40LDAuNSAxLjEsMC41IDEuNiwwLjFjMC4xLC0wLjEgMC4yLC0wLjIgMC4zLC0wLjRjMCwtMC4zIDAuMywtMC43IDAuOCwtMC43bDAsMHoiLz4NCiA8L2c+DQo8L3N2Zz4="); }
+
+.icon-sidebar-issues {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmFsbC1pc3N1ZXM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTEzLjQsMTRsNS42LDBsMCwtMWwtNC44LDBjLTAuMiwwLjQgLTAuNSwwLjcgLTAuOCwxbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTksMTFsMCwtMWwtMy42LDBjMCwwLjMgLTAuMSwwLjcgLTAuMiwxbDMuOCwwbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTksOGwwLC0xbC0zLjgsMGMwLjEsMC4zIDAuMiwwLjcgMC4yLDFsMy42LDBsMCwweiIvPg0KICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0iU2hhcGUiIGQ9Im0xNC4yLDVsNC44LDBsMCwtMWwtNS42LDBjMC4zLDAuMyAwLjYsMC42IDAuOCwxbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtOC41LDRjLTIuOCwwIC01LDIuMiAtNSw1YzAsMSAwLjMsMS44IDAuNywyLjZsLTIuNywyLjdjLTAuNCwwLjQgLTAuNCwxIDAsMS40bDAsMGMwLjQsMC40IDEsMC40IDEuNCwwbDIuNywtMi43YzAuOSwwLjcgMS44LDEgMi45LDFjMi44LDAgNSwtMi4yIDUsLTVjMCwtMi44IC0yLjIsLTUgLTUsLTVsMCwwem0wLDljLTIuMiwwIC00LC0xLjggLTQsLTRjMCwtMi4yIDEuOCwtNCA0LC00YzIuMiwwIDQsMS44IDQsNGMwLDIuMiAtMS44LDQgLTQsNGwwLDB6Ii8+DQogPC9nPg0KPC9zdmc+"); }
+
 button,
-h2,
-h3,
-h4,
-div.form-body,
-div,
-.operations > li {
-    color: #DEDCFF !important;
-    text-shadow: none !important;
-}
+button *,
+input,
+input *,
+textarea,
+textarea *,
+form.aui option,
+.toolbar-trigger.js-default-dropdown,
+.editable-field:hover,
+.editable-field:hover *,
+.toolbar-group.pluggable-ops,
+.toolbar-group.pluggable-ops *,
+.aui-button {
+  background: #2b4d65 !important;
+  color: #ededed !important; }
 
-#summary-val,
-.tab-label,
-.release-report-tab .tab-count,
-.jira-dialog .jira-dialog-heading,
-.jira-dialog .jira-dialog-heading h2,
-.jira-dialog .buttons-container .hint-container,
-li.active.first > a > strong,
-div.jira-dialog-heading,
-div.buttons-container.form-footer,
-#content .aui-page-panel-nav .tabs.vertical strong,
-#stepped-process > div > section > form > table > tbody > tr.titlerow > td > h3,
-#navigator-sidebar,
-div.mod-header > h3,
-#content > div > div > div > ul > li.active.first a strong #project-tab > div.aui-page-header > div > div > h2,
-#comment-edit > div.buttons-container.form-footer,
-#comment-edit > div.buttons-container.form-footer *,
-#navigator-sidebar *,
-#edit-comment > div.jira-dialog-heading,
-#edit-comment > div.jira-dialog-heading h2,
-#description-val div h3,
-#workflow-transition-401-dialog > div.jira-dialog-heading,
-#workflow-transition-401-dialog > div.jira-dialog-heading *,
-#activity-stream > div > div.activity-item-summary > div > div > p,
-#issue_actions_container > div.message-container *,
-#ghx-content-main > div.aui-page-panel,
-#ghx-content-main > div.aui-page-panel *,
-#issue_actions_container > div,
-#content > div.navigator-container > div.navigator-body > div > form > div.aui-group > div.aui-item.search-wrap > div.search-container > div.search-field-container > div > div.search-criteria > ul > li > button,
-#content > div.navigator-container > div.navigator-body > div > form > div.aui-group > div.aui-item.search-wrap > div.search-container > div.search-field-container > div > div.search-criteria > ul > li > button > div > span,
-#workflow-transition-141-dialog > div.jira-dialog-heading,
-#workflow-transition-141-dialog > div.jira-dialog-heading *,
-#issue-workflow-transition > div.buttons-container.form-footer,
-#issue-workflow-transition > div.buttons-container.form-footer *,
-#create-issue-dialog > div.jira-dialog-heading,
-#create-issue-dialog > div.jira-dialog-heading *,
-#create-issue-dialog > div.jira-dialog-content > div.qf-container > div > form > div.buttons-container.form-footer,
-#create-issue-dialog > div.jira-dialog-content > div.qf-container > div > form > div.buttons-container.form-footer *,
-.aui-dropdown2,
-#inline-dialog-column-picker-dialog,
-#inline-dialog-column-picker-dialog *,
-#ghx-issues-in-epic-table > tbody > tr > td.nav.assignee > a,
-.aui-dropdown2 *,
-.saved-search-selector,
-#jira > div.ajs-layer.box-shadow.active,
-#jira > div.ajs-layer.box-shadow.active *,
-.navigator-body,
-.sla-tag-example-wrapper *,
-#stalker,
-#issue-content,
-#login-form > div.form-body > fieldset > fieldset > div > label,
-#ghx-tooltip,
-#sd-project-panel-content > div > nav > div > div > ul.aui-nav.sd-queue-list.__skate > li.aui-nav-selected.sd-queue-item.badge-length-1 > a > span.sd-item-label,
-#content > div.aui-sidebar > div,
-.issue-body-content .module > .mod-header > h1,
-.issue-body-content .module > .mod-header > h2,
-.issue-body-content .module > .mod-header > h3,
-.issue-body-content .module > .mod-header > h4,
-.issue-body-content .module > .mod-header > h5,
-.issue-body-content .module > .mod-header > h6,
-.issue-header .issue-header-content > .command-bar,
-.aui-avatar .aui-avatar-xsmall,
-.search-title,
-form.navigator-search.query-component.generic-styled,
-.criteria-wrap > div > span,
-.criteria-wrap,
-.list-view > div.issue-table-container *,
-#issue_actions_container > table > tbody > tr > th,
-table > tbody > tr > td,
-#devstatus-pullrequest-detail-dialog > div.jira-dialog-content.devstatus-dialog-content > div > div,
-#tab-content-stash > div.detail-content-container > div > div > table,
-#dashboard-content > div.aui-page-header > div > div.aui-page-header-main > h1,
-#ghx-report *,
-#ghx-plan *,
-#inline-dialog-extrareviewers-tooltip-1,
-#inline-dialog-extrareviewers-tooltip-1 > div.aui-inline-dialog-contents.contents,
-#arrow-extrareviewers-tooltip-1,
-#inline-dialog-extrareviewers-tooltip-1 > div.aui-inline-dialog-contents.contents > div > div > table,
-#inline-dialog-extrareviewers-tooltip-1 > div.aui-inline-dialog-contents.contents > div > div,
-#inline-dialog-extrareviewers-tooltip-1 > div.aui-inline-dialog-contents.contents > div > div > table,
-#inline-dialog-extrareviewers-tooltip-1 > div.aui-inline-dialog-contents.contents > div > div > table > tbody > tr,
-#devstatus-commit-detail-dialog > div.jira-dialog-content.devstatus-dialog-content > div,
-#devstatus-branch-detail-dialog > div.jira-dialog-content.devstatus-dialog-content > div,
-#content > div,
-.activity-stream-container .full-view not-configurable,
-#up-user-title,
-#content > div > div > section > header > div > div.aui-page-header-main h2,
-#jelus-profile-fragment > div > h3,
-#gantt-setting > div.mod-header > h3,
-#assigned-and-open > div.mod-header > h3,
-#details-profile-fragment > div.mod-header > h3,
-#activity-profile-fragment > div.mod-header > h3,
-#nfeed-inline-dialog > div > div.dialog-page-body,
-body > div.gadget.default,
-#link-issue-dialog > div.jira-dialog-content > div,
-#add-jira-issue-link-link,
-#add-web-link-link,
-#add-confluence-page-link-link,
-#linkingmodule_heading > ul,
-#opsbar-operations_more_drop > div,
-#opsbar-operations_more_drop > div > ul > li > a,
-#timetrackingmodule_heading > ul,
-#content > header > div > div > h1,
-#ghx-header *,
-#ghx-rabid,
-#ghx-work,
-#ghx-detail-view *,
-#ghx-column-header-group *,
-#ghx-pool,
-#ghx-pool > div > ul > li,
-#comment-add > div.form-body,
-#content > header > div > div.aui-page-header-main > div.aui-group > div > h1,
-#linkingmodule > div.mod-content > dl > dd,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-content > div.form-body.ghx-assigned-work-table,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-content > div.form-body.ghx-assigned-work-table > table > tfoot > tr,
-#content > div.aui-sidebar > div > div.aui-sidebar-body > header > div > div > h1,
-#greenhopper_menu-content,
-#\31 {
-    background: #002E3B !important;
-    color: #DEDCFF !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-}
-
-#ghx-pool > div > ul > li > div.ghx-selected,
-#ghx-pool > div > ul > li > div.ghx-selected .ghx-issue-content {
-    background: #13667E !important;
-}
-
-#content > div.aui-sidebar > div > div.aui-sidebar-body > nav > div > div > ul > li > a > span.aui-nav-item-label {
-    color: #DEDCFF;
-}
-
-#ghx-pool > div.ghx-swimlane > ul > li {
-    background: #0B3541 !important;
-    color: #DEDCFF;
-}
-
-.ghx-zone-cell h2 {
-    color: #000 !important;
-}
-
-#link-issue-dialog > div.jira-dialog-heading > h2,
-#issue-workflow-transition > div.form-body,
-#issue-workflow-transition > div.form-body label,
-#footer-comment-button,
-#devstatus-branch-detail-dialog > div.jira-dialog-heading.devstatus-dialog-heading,
-#devstatus-branch-detail-dialog > div.jira-dialog-heading.devstatus-dialog-heading *,
-#comment-edit > div.form-body,
-#comment-edit > div.form-body *,
-#description-wiki-edit,
-.wiki-edit > div.wiki-edit-toolbar,
-.wiki-edit > div.wiki-edit-toolbar > div > div > div *,
-#description,
-#description-form > div.save-options,
-#description-form > div.save-options *,
-#issue-comment-add-submit,
-#drag-and-drop-attachment-panel > div.mod-content > div > label,
-#issue-workflow-transition > div.form-body .description,
-#create-issue-dialog > div.jira-dialog-content,
-#create-issue-dialog > div.jira-dialog-content label,
-#create-issue-dialog > div.jira-dialog-content .description,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-heading,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-content > div.buttons-container.form-footer,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-content > div.buttons-container.form-footer *,
-#jira > div.jira-dialog.box-shadow.jira-dialog-open.popup-width-medium.jira-dialog-content-ready > div.jira-dialog-heading *,
-#comment-add-dialog > div.jira-dialog-heading,
-#content > nav,
-#content > nav *,
-#sd-project-panel-content > section > div.queue-issues-container > div.sd-agent-header > h2 > span.sd-queue-title-val,
-#issuetable > thead > tr,
-#issuetable > thead > tr *,
-#sd-project-panel-content > section > div.queue-issues-container > div.sd-agent-header,
-#comment-add-dialog > div.jira-dialog-heading *,
-#comment-add > div.buttons-container.form-footer,
-#comment-add-hint,
-#ghx-pool > div.ghx-swimlane > ul > li > div.js-detailview.ghx-issue.js-issue.js-parent-drag.ghx-not-rankable.ui-draggable > div.ghx-days,
-#ghx-tab-details > div:nth-child(5) > div > div.ghx-controls > button,
-#ghx-tab-comments > div.ghx-controls > button,
-.aui-sidebar[aria-expanded=false] .aui-navgroup-vertical .aui-nav .aui-nav-child-selected a,
-.aui-sidebar-submenu[aria-expanded=false] .aui-navgroup-vertical .aui-nav .aui-nav-child-selected a,
-.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
-.aui-sidebar-submenu .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
-#ghx-tab-attachments > div.ghx-controls > button,
-#ghx-tab-subtasks > div.ghx-controls > button,
-#ghx-pool > div > ul > li > div > div.ghx-issue-content,
-#link-issue-dialog > div.jira-dialog-heading,
-#link-jira-issue > div.buttons-container.form-footer,
-#devstatus-pullrequest-detail-dialog > div.jira-dialog-heading.devstatus-dialog-heading,
-#devstatus-pullrequest-detail-dialog > div.jira-dialog-heading.devstatus-dialog-heading > h2,
-#devstatus-pullrequest-detail-dialog > div:nth-child(4) > div,
-#gadget-10207 > div > div > table > thead > tr,
-#devstatus-commit-detail-dialog > div:nth-child(4) > div,
-#devstatus-branch-detail-dialog > div:nth-child(4) > div,
-#inline-dialog-watchers > div > div > form,
-#nfeed-inline-dialog > div > h2,
-#nfeed-inline-dialog > div > div.dialog-button-panel,
-#wiki-edit-wikiEdit0,
-#wiki-edit-wikiEdit0 > div > div > div > div > a,
-#wiki-edit-wikiEdit0 > div > div > div > div > a > span,
-#addcomment > div > div textarea,
-#gadget-10207 > div > div > div.aui-group.count-pagination,
-.aui-sidebar .aui-sidebar-footer > .aui-sidebar-settings-button:hover,
-.aui-sidebar-submenu .aui-sidebar-footer > .aui-sidebar-settings-button:hover,
-.aui-sidebar .aui-sidebar-footer > .aui-sidebar-toggle:hover,
-.aui-sidebar-submenu .aui-sidebar-footer > .aui-sidebar-toggle:hover,
-.aui-sidebar .aui-sidebar-footer > .aui-sidebar-settings-button:focus,
-.aui-sidebar-submenu .aui-sidebar-footer > .aui-sidebar-settings-button:focus,
-.aui-sidebar .aui-sidebar-footer > .aui-sidebar-toggle:focus,
-.aui-sidebar-submenu .aui-sidebar-footer > .aui-sidebar-toggle:focus,
-#content > div.aui-sidebar.aui-is-hover > div > div.aui-sidebar-footer > a {
-    background: #055167 !important;
-    color: #DEDCFF;
-}
-
-#gadget-10207 > div > div > table > thead > tr > th.active,
-#addcomment > div > div.sd-add-comment-container > form > div.sd-comment-form-container > textarea {
-    background: #1F7892 !important;
-    color: #DEDCFF;
-}
-
-#comment-tabpanel > strong {
-    color: #191921;
-}
-
-.issue-data-block:hover,
-.issue-data-block.focused,
-.editable-field:hover {
-    background: #006372 !important;
-}
-
-#issuetable > thead > tr > th,
-.issue-table > thead > tr > th,
-#issuetable > tbody > tr > th,
-.issue-table > tbody > tr > th,
-#issuetable > thead > tr > td,
-.issue-table > thead > tr > td,
-#issuetable > tbody > tr > td,
-.issue-table > tbody > tr > td,
-#issuetable > tfoot > tr > td,
-.issue-table > tfoot > tr > td,
-.saved-search-selector,
-.navigator-search,
-.navigator-body {
-    border-bottom: 1px solid #006478;
-}
-
-.issue-header .issue-header-content > .command-bar {
-    border-top: 1px solid #006478;
-}
-
-.navigator-sidebar {
-    border-right: 1px solid #006478;
-}
+.jira-dialog-heading,
+.jira-dialog-heading *,
+.buttons-container
+.buttons-container *
+.jira-dialog-content,
+.jira-dialog .jira-dialog-content,
+.jira-dialog .buttons-container {
+  background: #1a1a1a !important;
+  color: #ededed !important; }
 
 #syntaxplugin span[style*="black"] {
-    color: white !important;
-}
-
+  color: #FFFFFF !important; }
 #syntaxplugin span[style*="blue"] {
-    color: #2084f4 !important;
-}
-
-.aui-toolbar .toolbar-group .toolbar-trigger,
-.aui-toolbar .aui-dd-parent a.aui-dd-trigger,
-.tabwrap > ul.tabs > li a,
-.tabwrap > ul.tabs > li a:link,
-.tabwrap > ul.tabs > li a:visited,
-.tabwrap > .tabs.horizontal > li,
-.tabwrap > .tabs.horizontal > li > a,
-.tabwrap > .tabs.horizontal > li > strong,
-.tabwrap > .tabs.horizontal > li.active > a,
-.tabwrap > .tabs.horizontal > li.active > strong {
-    background: #254069;
-    border-color: black;
-    color: #DEDCFF;
-}
-
-.aui-toolbar .toolbar-group .toolbar-trigger,
-.aui-toolbar .aui-dd-parent a.aui-dd-trigger > span.trigger-label {
-    color: white;
-    text-shadow: none;
-}
-
-.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active,
-.aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger,
-.aui-toolbar .toolbar-group .toolbar-trigger:focus,
-.aui-toolbar .toolbar-group .toolbar-trigger:hover,
-.aui-toolbar .toolbar-group button:focus,
-.aui-toolbar .toolbar-group button:hover,
-.aui-toolbar .aui-dd-parent .aui-dd-trigger:focus,
-.aui-toolbar .aui-dd-parent .aui-dd-trigger:hover,
-.aui-toolbar .toolbar-group .active .toolbar-trigger:hover {
-    background: #54709A;
-}
-
-#comment-tabpanel > strong {
-    color: #DEDCFF;
-}
-
-a,
-.aui-dropdown2.aui-style-default a {
-    color: #7CA9D9;
-}
-
-.aui-badge.vote-state-off,
-.aui-badge.watch-state-off {
-    background: rgba(206, 205, 205, 0.31);
-    color: rgba(255, 255, 255, 1);
-}
+  color: #3d6e90 !important; }
 
 .sla-tag.sla-tag-breached,
 code {
-    color: Black;
-}
+  color: #000000; }
 
 .ghx-swimlane-header:after,
 .ghx-heading:after,
@@ -344,62 +58,92 @@ code {
 .ghx-heading:hover,
 .ghx-issue .ghx-end:hover,
 #ghx-pool > div.ghx-swimlane > ul > li > div:hover .ghx-end,
+.ghx-issue,
 .ghx-issue.ghx-selected .ghx-end {
-    background-color: transparent;
-    box-shadow: none;
-}
+  background-color: transparent;
+  box-shadow: none; }
 
-.ghx-issue {
-    border: none;
-}
+.ghx-column.ui-sortable {
+  background-color: #4d4d4d !important; }
 
-.ghx-gh .aui-badge,
-#sd-project-panel-content > div > nav > div > div > ul.aui-nav > li > a > span.aui-badge {
-    background-color: #808080;
-}
+#ghx-pool {
+  background: inherit; }
 
-.agile-icon-work {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmFjdGl2ZS1zcHJpbnRzPC90aXRsZT4NCiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiA8Zz4NCiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPg0KICA8ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9Im5vbmUiIGlkPSJQYWdlLTEiPg0KICAgPGcgZmlsbD0iIzMzMzMzMyIgaWQ9ImFjdGl2ZS1zcHJpbnRzIj4NCiAgICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0ic3ZnXzEiIGQ9Im0xLDFsMCwxN2wxNywwbDAsLTE3bC0xNywwbDAsMHptMSwxNmwwLC0xNWw3LDBsMCwxNWwtNywwbDAsMHptMTUsMGwtNywwbDAsLTE1bDcsMGwwLDE1bDAsMHoiLz4NCiAgIDwvZz4NCiAgPC9nPg0KIDwvZz4NCjwvc3ZnPg==");
-}
+#ghx-column-headers .ghx-column,
+#ghx-column-headers .ghx-column * {
+  background-color: #4d4d4d !important;
+  border: none;
+  color: #ededed; }
 
-.agile-icon-report {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPnJlcG9ydHM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTUsMmwwLDE1bC0yLjk1MSwwbC0wLjA0NiwtMTVsMi45OTcsMGwwLDB6bTEsLTFsLTUsMGwwLjA1MiwxN2w0Ljk0OCwwbDAsLTE3bDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTEsNi43OTU1MDFsMCwxMC4wMDAwMDFsLTIuOTUyLDBsLTAuMDQ0MDAxLC0xMC4wMDAwMDFsMi45OTYsMGwwLDB6bTEsLTFsLTUsMGwwLjA1MiwxMi4wMDAwMDFsNC45NDgsMGwwLC0xMi4wMDAwMDFsMCwweiIvPg0KICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0iU2hhcGUiIGQ9Im0xNywxMmwwLDVsLTIuOTU1LDBsLTAuMDM3LC01bDIuOTkyLDBsMCwwem0xLC0xbC01LDBsMC4wNTIsN2w0Ljk0OCwwbDAsLTdsMCwweiIvPg0KIDwvZz4NCjwvc3ZnPg==");
-}
+#ghx-header {
+  margin: 0; }
 
-.aui-navgroup-horizontal .aui-nav > li a:focus,
-.aui-navgroup-vertical .aui-nav > li > a:focus,
-.aui-nav-vertical > li > a:focus,
-.aui-navgroup-horizontal .aui-nav > li a:hover,
-.aui-navgroup-vertical .aui-nav > li > a:hover,
-.aui-nav-vertical > li > a:hover {
-    background-color: #205081;
-}
+.ghx-end {
+  background: #333333 !important;
+  color: #ededed !important; }
 
-.agile-icon-plan {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmJhY2tsb2c8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJzdmdfMSIgZD0ibTIwLDVsLTQsMGwwLC00bC0xNSwwbDAsNWw0LDBsMCwzbC00LDBsMCw5bDE1LDBsMCwtOGw0LDBsMCwtNWwwLDB6bS0xOCwwbDAsLTNsMTMsMGwwLDNsLTEzLDBsMCwwem0xMywxMmwtMTMsMGwwLC0zbDEzLDBsMCwzbDAsMHptMCwtNGwtMTMsMGwwLC0zbDEzLDBsMCwzbDAsMHptNCwtNGwtMTMsMGwwLC0zbDEwLDBsMywwbDAsM2wwLDB6Ii8+DQogPC9nPg0KPC9zdmc+");
-}
+.aui-badge {
+  background: #ededed !important;
+  color: #333333 !important; }
 
-.icon-sidebar-release {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPnJlbGVhc2VzPC90aXRsZT4NCiA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiA8Zz4NCiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPg0KICA8ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9Im5vbmUiIGlkPSJQYWdlLTEiPg0KICAgPGcgaWQ9InJlbGVhc2VzIj4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSI4IiB5PSIxNi4yOTg4IiB4PSIyLjA5OTYiIGZpbGw9IiNiZmJmYmYiIGlkPSJSZWN0YW5nbGUtMzUiLz4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSI1IiB5PSIxNi4yOTg4IiB4PSIxMi4wOTk2IiBmaWxsPSIjYmZiZmJmIiBpZD0iUmVjdGFuZ2xlLTM2Ii8+DQogICAgPHJlY3QgaGVpZ2h0PSIxIiB3aWR0aD0iMSIgeT0iNy4yOTg4IiB4PSI1LjA5OTYiIGZpbGw9IiNiZmJmYmYiIGlkPSJSZWN0YW5nbGUtMzgiLz4NCiAgICA8cmVjdCBoZWlnaHQ9IjEiIHdpZHRoPSIxIiB5PSI3LjI5ODgiIHg9IjcuMDk5NiIgZmlsbD0iI2JmYmZiZiIgaWQ9IlJlY3RhbmdsZS0zOSIvPg0KICAgIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTE3LjY5OTYsMTIuMzk4ODFsMS40LC00LjFsLTYsMGwtMSwxbC0yLDBsMCwtNGwtNCwwbDAsLTNsLTEsMGwwLDNsLTIsMGwwLDRsLTEsMGwwLDRsLTEsMGwwLDFsMTgsMGwwLC0xbC0xLjksMGMwLjIsLTAuMyAwLjQsLTAuNiAwLjUsLTAuOWwwLDB6bS0xMy42LC02LjFsNSwwbDAsM2wtNSwwbDAsLTNsMCwwem0xMSw3bC0xMiwwbDAsLTNsOS40LDBsMSwtMWw0LjIsMGwtMC45LDIuOGMtMC4yLDAuNiAtMSwxLjIgLTEuNywxLjJsMCwweiIvPg0KICAgPC9nPg0KICA8L2c+DQogPC9nPg0KPC9zdmc+");
-}
+.ghx-everything-else {
+  background: #333333 !important; }
 
-.icon-sidebar-components {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmNvbXBvbmVudHM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTEwLjQ1LDE4LjdsLTIuOSwtMi45Yy0wLjMsLTAuMyAtMC40LC0wLjMgLTAuNCwtMC4zYy0wLjEsMC4zIC0wLjIsMC42IC0wLjUsMC44Yy0wLjgsMC44IC0yLjEsMC44IC0yLjksMGMtMC44LC0wLjggLTAuOCwtMi4xIDAsLTIuOWMwLjIsLTAuMiAwLjUsLTAuNCAwLjgsLTAuNWMwLDAgLTAuMSwtMC4yIC0wLjMsLTAuNGwtMi45LC0yLjlsMi41LC0yLjVjMC40LC0wLjQgMC44LC0wLjYgMS4xLC0wLjZjMC41LDAgMC44LDAuNCAwLjksMC43bDAuMywwLjNjMC40LDAuNCAxLjEsMC40IDEuNSwwYzAuNCwtMC40IDAuNCwtMS4xIDAsLTEuNWMtMC4xLC0wLjEgLTAuMywtMC4yIC0wLjQsLTAuMmMtMC4yLC0wLjEgLTAuNiwtMC4zIC0wLjcsLTAuN2MtMC4xLC0wLjQgMC4xLC0wLjkgMC42LC0xLjRsMi40LC0yLjRsMi45LDIuOWMwLjMsMC4zIDAuNCwwLjMgMC40LDAuM2MwLjEsLTAuMyAwLjIsLTAuNiAwLjUsLTAuOGMwLjgsLTAuOCAyLjEsLTAuOCAyLjksMGMwLjQsMC40IDAuNiwwLjkgMC42LDEuNWMwLDAuNiAtMC4yLDEuMSAtMC42LDEuNWMtMC4yLDAuMiAtMC41LDAuNCAtMC44LDAuNWMwLDAgMC4xLDAuMiAwLjMsMC40bDIuOSwyLjlsLTIuNCwyLjRjLTAuNCwwLjQgLTAuOCwwLjYgLTEuMSwwLjZsMCwwYy0wLjUsMCAtMC44LC0wLjQgLTAuOSwtMC43YzAsLTAuMSAtMC4xLC0wLjMgLTAuMiwtMC40Yy0wLjQsLTAuNCAtMS4xLC0wLjQgLTEuNSwwYy0wLjIsMC4yIC0wLjMsMC41IC0wLjMsMC44YzAsMC4zIDAuMSwwLjYgMC4zLDAuOGMwLjEsMC4xIDAuMiwwLjIgMC40LDAuM2MwLjIsMC4xIDAuNiwwLjMgMC42LDAuN2MwLjEsMC40IC0wLjEsMC45IC0wLjYsMS4zbC0yLjUsMi40bDAsMHptLTMuMywtNC4yYzAuNCwwIDAuNywwLjIgMS4xLDAuNmwyLjIsMi4ybDEuOCwtMS44YzAuMywtMC4zIDAuMywtMC40IDAuMywtMC40Yy0wLjMsLTAuMSAtMC42LC0wLjIgLTAuOCwtMC41Yy0wLjQsLTAuNCAtMC42LC0wLjkgLTAuNiwtMS41YzAsLTAuNiAwLjIsLTEuMSAwLjYsLTEuNWMwLjgsLTAuOCAyLjEsLTAuOCAyLjksMGMwLjIsMC4yIDAuNCwwLjUgMC41LDAuOGMwLDAgMC4yLC0wLjEgMC40LC0wLjNsMS43LC0xLjdsLTIuMiwtMi4yYy0wLjUsLTAuNSAtMC43LC0wLjkgLTAuNiwtMS4zYzAuMSwtMC40IDAuNCwtMC42IDAuNywtMC43YzAuMSwwIDAuMywtMC4xIDAuNCwtMC4yYzAuNCwtMC40IDAuNCwtMS4xIDAsLTEuNWMtMC40LC0wLjQgLTEuMSwtMC40IC0xLjUsMGMtMC4xLDAuMSAtMC4yLDAuMiAtMC4zLDAuNGMtMC4xLDAuMiAtMC40LDAuNyAtMC45LDAuN2MtMC40LDAgLTAuNywtMC4yIC0xLjEsLTAuNmwtMi4xLC0yLjNsLTEuOCwxLjdjLTAuMywwLjMgLTAuMywwLjUgLTAuMywwLjVjMC4zLDAuMSAwLjYsMC4yIDAuOCwwLjVjMC44LDAuOCAwLjgsMi4xIDAsMi45Yy0wLjgsMC43IC0yLjEsMC43IC0yLjksMGMtMC4yLC0wLjMgLTAuNCwtMC41IC0wLjUsLTAuOGMwLDAgLTAuMiwwLjEgLTAuNCwwLjNsLTEuOCwxLjhsMi4yLDIuMmMwLjUsMC41IDAuNywwLjkgMC42LDEuM2MtMC4xLDAuNCAtMC40LDAuNiAtMC43LDAuN2MtMC4xLDAgLTAuMywwLjEgLTAuNCwwLjJjLTAuNCwwLjQgLTAuNCwxLjEgMCwxLjVjMC40LDAuNSAxLjEsMC41IDEuNiwwLjFjMC4xLC0wLjEgMC4yLC0wLjIgMC4zLC0wLjRjMCwtMC4zIDAuMywtMC43IDAuOCwtMC43bDAsMHoiLz4NCiA8L2c+DQo8L3N2Zz4=");
-}
+.wiki-edit-toolbar {
+  background: #333333; }
 
-.icon-sidebar-issues {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjEuMSAoODc2MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+DQogPHRpdGxlPmFsbC1pc3N1ZXM8L3RpdGxlPg0KIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KIDxnPg0KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQogIDxwYXRoIGZpbGw9IiNiZmJmYmYiIGlkPSJTaGFwZSIgZD0ibTEzLjQsMTRsNS42LDBsMCwtMWwtNC44LDBjLTAuMiwwLjQgLTAuNSwwLjcgLTAuOCwxbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTksMTFsMCwtMWwtMy42LDBjMCwwLjMgLTAuMSwwLjcgLTAuMiwxbDMuOCwwbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtMTksOGwwLC0xbC0zLjgsMGMwLjEsMC4zIDAuMiwwLjcgMC4yLDFsMy42LDBsMCwweiIvPg0KICA8cGF0aCBmaWxsPSIjYmZiZmJmIiBpZD0iU2hhcGUiIGQ9Im0xNC4yLDVsNC44LDBsMCwtMWwtNS42LDBjMC4zLDAuMyAwLjYsMC42IDAuOCwxbDAsMHoiLz4NCiAgPHBhdGggZmlsbD0iI2JmYmZiZiIgaWQ9IlNoYXBlIiBkPSJtOC41LDRjLTIuOCwwIC01LDIuMiAtNSw1YzAsMSAwLjMsMS44IDAuNywyLjZsLTIuNywyLjdjLTAuNCwwLjQgLTAuNCwxIDAsMS40bDAsMGMwLjQsMC40IDEsMC40IDEuNCwwbDIuNywtMi43YzAuOSwwLjcgMS44LDEgMi45LDFjMi44LDAgNSwtMi4yIDUsLTVjMCwtMi44IC0yLjIsLTUgLTUsLTVsMCwwem0wLDljLTIuMiwwIC00LC0xLjggLTQsLTRjMCwtMi4yIDEuOCwtNCA0LC00YzIuMiwwIDQsMS44IDQsNGMwLDIuMiAtMS44LDQgLTQsNGwwLDB6Ii8+DQogPC9nPg0KPC9zdmc+")
-}
+#issue-tabs > li {
+  background: #2b4d65 !important;
+  color: #ededed; }
+  #issue-tabs > li > a {
+    background: #2b4d65 !important;
+    color: #ededed; }
+  #issue-tabs > li.active > strong {
+    background: #325b77 !important;
+    color: #ededed; }
 
-#ghx-chart-view > canvas.overlay {
-    background: transparent !important;
-}
+.ops li,
+.ops li * {
+  background: #2b4d65 !important;
+  color: #ededed; }
 
-.aui-button.ghx-dropdown-trigger:after,
-.aui-buttons .aui-button.aui-button-primary.ghx-dropdown-trigger:after {
-    border-top-color: #FFF;
-}
+.aui-list,
+.aui-list * {
+  color: #ededed !important; }
 
-#ghx-detail-view {
-    width: 600px !important;
-}
+html,
+body header nav.aui-header,
+body header nav.aui-header * {
+  background: #000000; }
+
+.ghx-header *,
+.issue-header-content,
+.aui-page-header *,
+.command-bar,
+.toggle-title,
+.saved-search-selector,
+.saved-search-selector *,
+.navigator-search {
+  background: #333333 !important;
+  color: #ededed !important; }
+
+.aui-sidebar-wrapper {
+  background: #333333 !important; }
+
+.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a {
+  background: #4d4d4d !important; }
+
+#footer,
+#footer * {
+  background: #000000 !important; }
+
+* {
+  background: #333333;
+  color: #ededed;
+  text-shadow: none !important;
+  box-shadow: none !important; }
+
+.aui-dropdown2.aui-style-default a {
+  color: #ededed; }
+
+/*# sourceMappingURL=jira.css.map */
