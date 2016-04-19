@@ -14,7 +14,7 @@
 }
 
 .ghx-column.ui-sortable {
-    background-color: $offDark !important;
+    background: $brighterSecondary !important;
 }
 
 #ghx-pool {
@@ -23,7 +23,7 @@
 
 #ghx-column-headers .ghx-column,
 #ghx-column-headers .ghx-column * {
-    background-color: $offDark !important;
+    background: $brighterSecondary !important;
     border: none;
     color: $primary;
 }
@@ -31,3 +31,10 @@
 #ghx-header {
     margin: 0;
 }
+
+.ghx-column-headers .ghx-column,
+.ghx-columns .ghx-column {
+    background: $brighterSecondary;
+}
+
+

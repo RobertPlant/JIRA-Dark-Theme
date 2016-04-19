@@ -64,19 +64,23 @@ code {
   box-shadow: none; }
 
 .ghx-column.ui-sortable {
-  background-color: #4d4d4d !important; }
+  background: #4d4d4d !important; }
 
 #ghx-pool {
   background: inherit; }
 
 #ghx-column-headers .ghx-column,
 #ghx-column-headers .ghx-column * {
-  background-color: #4d4d4d !important;
+  background: #4d4d4d !important;
   border: none;
   color: #ededed; }
 
 #ghx-header {
   margin: 0; }
+
+.ghx-column-headers .ghx-column,
+.ghx-columns .ghx-column {
+  background: #4d4d4d; }
 
 .ghx-end {
   background: #333333 !important;
