@@ -1,9 +1,14 @@
 @import "colors";
 
-.aui-sidebar-wrapper {
+.aui-sidebar-wrapper,
+#content .aui-page-panel-nav .tabs.vertical strong {
     background: $brightSecondary !important;
+    color: $brightestHighlight !important;
 }
 
-.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a {
+#content .aui-page-panel-nav .tabs.vertical a:focus,
+#content .aui-page-panel-nav .tabs.vertical a:hover,
+#content .aui-page-panel-nav .tabs.vertical a:focus *,
+#content .aui-page-panel-nav .tabs.vertical a:hover * {
     background: $brighterSecondary !important;
 }

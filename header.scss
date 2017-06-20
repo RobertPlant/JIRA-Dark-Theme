@@ -2,7 +2,7 @@
 
 html,
 body header nav.aui-header,
-body header nav.aui-header * {
+body header nav.aui-header *:not(.jira-feedback-plugin-icon) {
     background: $black;
 }
 

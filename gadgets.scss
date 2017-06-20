@@ -1,0 +1,6 @@
+@import "colors";
+
+.layout .column .placeholder,
+.layout .column.empty .empty-text {
+    background: $brighterSecondary !important;
+}

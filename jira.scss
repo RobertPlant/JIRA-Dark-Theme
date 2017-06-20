@@ -7,7 +7,10 @@
 @import "ticket";
 @import "header";
 @import "sidebar";
+@import "fonts";
 @import "footer";
+@import "popups";
+@import "gadgets";
 
 * {
     background: $brightSecondary;
@@ -16,6 +19,13 @@
     box-shadow: none !important;
 }
 
+.aui-dropdown2:hover,
 .aui-dropdown2.aui-style-default a {
-    color: $primary;
+    background: $brightSecondary !important;
+    color: $primary !important;
+}
+
+.aui-dropdown2 li:hover,
+.aui-dropdown2 li *:hover {
+    background: $brighterSecondary !important;
 }

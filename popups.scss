@@ -1,0 +1,22 @@
+@import "colors";
+
+.aui-message.hint,
+.aui-message-hint,
+.aui-message.info,
+.aui-message-info,
+.aui-message,
+.aui-message.hint *,
+.aui-message-hint *,
+.aui-message.info *,
+.aui-message-info *,
+.aui-message * {
+    background: $brighterSecondary !important;
+}
+
+.aui-dialog2-header,
+.aui-dialog2-footer,
+.aui-dialog2-header *,
+.aui-dialog2-footer * {
+    background: $brighterSecondary !important;
+    color: $primary !important;
+}

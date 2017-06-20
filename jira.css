@@ -44,8 +44,9 @@ form.aui option,
 
 #syntaxplugin span[style*="black"] {
   color: #FFFFFF !important; }
+
 #syntaxplugin span[style*="blue"] {
-  color: #3d6e90 !important; }
+  color: #42769a !important; }
 
 .sla-tag.sla-tag-breached,
 code {
@@ -82,6 +83,7 @@ code {
 .ghx-columns .ghx-column {
   background: #4d4d4d; }
 
+.ghx-backlog-header,
 .ghx-end {
   background: #333333 !important;
   color: #ededed !important; }
@@ -117,7 +119,7 @@ code {
 
 html,
 body header nav.aui-header,
-body header nav.aui-header * {
+body header nav.aui-header *:not(.jira-feedback-plugin-icon) {
   background: #000000; }
 
 .ghx-header *,
@@ -131,15 +133,55 @@ body header nav.aui-header * {
   background: #333333 !important;
   color: #ededed !important; }
 
-.aui-sidebar-wrapper {
-  background: #333333 !important; }
+.aui-sidebar-wrapper,
+#content .aui-page-panel-nav .tabs.vertical strong {
+  background: #333333 !important;
+  color: #42769a !important; }
 
-.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a {
+#content .aui-page-panel-nav .tabs.vertical a:focus,
+#content .aui-page-panel-nav .tabs.vertical a:hover,
+#content .aui-page-panel-nav .tabs.vertical a:focus *,
+#content .aui-page-panel-nav .tabs.vertical a:hover * {
   background: #4d4d4d !important; }
+
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a,
+.aui-navgroup-vertical .aui-nav .aui-nav-selected a,
+.aui-nav-vertical .aui-nav .aui-nav-selected a,
+.aui-nav-selected > a {
+  color: #42769a !important; }
+
+h1,
+h2,
+h3,
+h4 {
+  color: #325b77 !important; }
 
 #footer,
 #footer * {
   background: #000000 !important; }
+
+.aui-message.hint,
+.aui-message-hint,
+.aui-message.info,
+.aui-message-info,
+.aui-message,
+.aui-message.hint *,
+.aui-message-hint *,
+.aui-message.info *,
+.aui-message-info *,
+.aui-message * {
+  background: #4d4d4d !important; }
+
+.aui-dialog2-header,
+.aui-dialog2-footer,
+.aui-dialog2-header *,
+.aui-dialog2-footer * {
+  background: #4d4d4d !important;
+  color: #ededed !important; }
+
+.layout .column .placeholder,
+.layout .column.empty .empty-text {
+  background: #4d4d4d !important; }
 
 * {
   background: #333333;
@@ -147,7 +189,11 @@ body header nav.aui-header * {
   text-shadow: none !important;
   box-shadow: none !important; }
 
+.aui-dropdown2:hover,
 .aui-dropdown2.aui-style-default a {
-  color: #ededed; }
+  background: #333333 !important;
+  color: #ededed !important; }
 
-/*# sourceMappingURL=jira.css.map */
+.aui-dropdown2 li:hover,
+.aui-dropdown2 li *:hover {
+  background: #4d4d4d !important; }

@@ -1,0 +1,15 @@
+@import "colors";
+
+.aui-navgroup-horizontal .aui-nav > .aui-nav-selected a,
+.aui-navgroup-vertical .aui-nav .aui-nav-selected a,
+.aui-nav-vertical .aui-nav .aui-nav-selected a,
+.aui-nav-selected > a {
+    color: $brightestHighlight !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $brighterHighlight !important;
+}
