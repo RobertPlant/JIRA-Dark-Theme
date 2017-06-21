@@ -28,6 +28,8 @@ form.aui option,
 .editable-field:hover *,
 .toolbar-group.pluggable-ops,
 .toolbar-group.pluggable-ops *,
+.bf-nav-filter-container,
+.bf-nav-filter-container *,
 .aui-button {
   background: #2b4d65 !important;
   color: #ededed !important; }
@@ -186,6 +188,9 @@ h4 {
 div#slider-wrapper {
   background: #4d4d4d !important; }
 
+.content-container,
+.bf-gs-content,
+.bf-gs-section,
 * {
   background: #333333;
   color: #ededed;
