@@ -37,4 +37,7 @@
     background: $brighterSecondary;
 }
 
-
+.ghx-columns .ghx-busted,
+.ghx-columns .ghx-busted-max {
+    background: $column_warning !important;
+}
