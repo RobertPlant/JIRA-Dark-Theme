@@ -37,4 +37,6 @@
     background: $brighterSecondary;
 }
 
-
+.ghx-flagged * {
+    background-color: $flagged_ticket;
+}
