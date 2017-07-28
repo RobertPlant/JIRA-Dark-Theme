@@ -1,5 +1,6 @@
 $white: #FFFFFF;
 $primary: darken($white, 7%);
+$primaryHighlight: #ffe4c4;
 
 $black: #000000;
 $secondary: lighten($black, 10%);
@@ -11,4 +12,3 @@ $highlight: lighten($colour, 15%);
 $brightHighlight: lighten($colour, 10%);
 $brighterHighlight: lighten($colour, 20%);
 $brightestHighlight: lighten($colour, 30%);
-
