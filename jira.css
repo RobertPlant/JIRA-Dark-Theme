@@ -46,7 +46,6 @@ form.aui option,
 
 #syntaxplugin span[style*="black"] {
   color: #FFFFFF !important; }
-
 #syntaxplugin span[style*="blue"] {
   color: #42769a !important; }
 
@@ -157,6 +156,20 @@ h2,
 h3,
 h4 {
   color: #325b77 !important; }
+
+.user-content-block h1,
+.user-content-block h2,
+.user-content-block h3,
+.user-content-block h4,
+.user-content-block h5,
+.user-content-block h6,
+.user-content-block:hover h1,
+.user-content-block:hover h2,
+.user-content-block:hover h3,
+.user-content-block:hover h4,
+.user-content-block:hover h5,
+.user-content-block:hover h6 {
+  color: bisque !important; }
 
 #footer,
 #footer * {
