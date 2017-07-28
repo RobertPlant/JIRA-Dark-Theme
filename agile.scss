@@ -40,3 +40,8 @@
 .ghx-flagged * {
     background-color: $warning;
 }
+
+.ghx-columns .ghx-busted,
+.ghx-columns .ghx-busted-max {
+    background: $warning !important;
+}

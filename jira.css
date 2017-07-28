@@ -91,6 +91,10 @@ code {
 .ghx-flagged * {
   background-color: #8b0000; }
 
+.ghx-columns .ghx-busted,
+.ghx-columns .ghx-busted-max {
+  background: #8b0000 !important; }
+
 .ghx-backlog-header,
 .ghx-end {
   background: #333333 !important;
