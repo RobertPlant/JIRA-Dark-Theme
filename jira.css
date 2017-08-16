@@ -94,6 +94,9 @@ code {
 .ghx-columns .ghx-busted-max {
   background: #8b0000 !important; }
 
+.ghx-column h2 {
+  color: #ededed !important; }
+
 .ghx-backlog-header,
 .ghx-end {
   background: #333333 !important;
