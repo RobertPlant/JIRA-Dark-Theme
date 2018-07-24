@@ -1,6 +1,7 @@
 @import "icons";
 @import "colors";
 @import "input";
+@import "issues";
 @import "syntax";
 @import "agile";
 @import "backlog";
@@ -32,3 +33,8 @@
 .aui-dropdown2 li *:hover {
     background: $brighterSecondary !important;
 }
+
+a {
+    color: $link;
+}
+

@@ -2,7 +2,8 @@
 
 html,
 body header nav.aui-header,
-body header nav.aui-header *:not(.jira-feedback-plugin-icon) {
+body header nav.aui-header *:not(.jira-feedback-plugin-icon),
+body header.aui-page-panel-nav {
     background: $black;
 }
 
@@ -13,7 +14,9 @@ body header nav.aui-header *:not(.jira-feedback-plugin-icon) {
 .toggle-title,
 .saved-search-selector,
 .saved-search-selector *,
-.navigator-search {
+.navigator-search,
+.aui-dropdown2,
+.aui-page-panel-nav {
     background: $brightSecondary !important;
     color: $primary !important;
 }

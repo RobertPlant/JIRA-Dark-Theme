@@ -1,0 +1,10 @@
+@import "colors";
+
+.issue-link-summary {
+    color: $brighterHighlight !important;
+}
+
+.pagination-view,
+.issue-list > li {
+    background: $brightSecondary !important;
+}
