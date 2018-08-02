@@ -54,6 +54,15 @@ form.aui option,
   color: #ededed;
 }
 
+.issue-link-summary {
+  color: #325b77 !important;
+}
+
+.pagination-view,
+.issue-list > li {
+  background: #333333 !important;
+}
+
 #syntaxplugin span[style*=black] {
   color: #FFFFFF !important;
 }
@@ -159,10 +168,14 @@ code {
   color: #ededed !important;
 }
 
+.dropdown-text {
+  background: #2b4d65 !important;
+}
+
 html,
 body header nav.aui-header,
 body header nav.aui-header *:not(.jira-feedback-plugin-icon),
-.aui-page-panel-nav {
+body header.aui-page-panel-nav {
   background: #000000;
 }
 
@@ -173,7 +186,9 @@ body header nav.aui-header *:not(.jira-feedback-plugin-icon),
 .toggle-title,
 .saved-search-selector,
 .saved-search-selector *,
-.navigator-search {
+.navigator-search,
+.aui-dropdown2,
+.aui-page-panel-nav {
   background: #333333 !important;
   color: #ededed !important;
 }
@@ -278,4 +293,8 @@ div#slider-wrapper {
 .aui-dropdown2 li:hover,
 .aui-dropdown2 li *:hover {
   background: #4d4d4d !important;
+}
+
+a {
+  color: #5985c6;
 }
